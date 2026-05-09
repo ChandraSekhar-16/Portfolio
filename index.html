@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <div class="header-icons">
+            <i class='bx bx-moon' id="darkmode-icon"></i>
+            <i class='bx bx-menu' id="menu-icon"></i>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Chandra Sekhar Panda</h1>
+            <h3>And I'm a <span class="multiple-text">Frontend Developer</span></h3>
+            <p>I build interactive, responsive, and modern websites using HTML, CSS, and JavaScript. Let's create something amazing together.</p>
+            
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+            </div>
+            <a href="#" class="btn-box">More about us</a>
+        </div>
+        <div class="home-img">
+            <img src="prof.jpg" alt="Profile">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="prof.jpg" alt="About Me">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer!</h3>
+            <p>I am passionate about building excellent software that improves the lives of those around me. I specialize in creating software for clients ranging from individuals and small-businesses all the way to large enterprise corporations.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+<section class="skills-section" id="skills">
+        
+        <div class="skills-column">
+            <h2 class="title">Technical Skills</h2>
+            
+            <div class="technical-box">
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <div class="skill-name"><i class='bx bxl-html5' style="color: #e34c26;"></i> HTML</div>
+                        <div class="skill-percent">90%</div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-fill html"></span>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <div class="skill-name"><i class='bx bxl-css3' style="color: #264de4;"></i> CSS</div>
+                        <div class="skill-percent">60%</div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-fill css"></span>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <div class="skill-name"><i class='bx bxl-javascript' style="color: #f7df1e;"></i> Javascript</div>
+                        <div class="skill-percent">85%</div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-fill js"></span>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <div class="skill-name"><i class='bx bxl-python' style="color: #9b59b6;"></i> Python</div>
+                        <div class="skill-percent">50%</div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-fill python"></span>
+                    </div>
+                </div>
+
+                 <div class="skill-item">
+                    <div class="skill-info">
+                        <div class="skill-name"><i class='bx bxl-react' style="color: #61dbfb;"></i> react</div>
+                        <div class="skill-percent">75%</div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-fill react"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-column">
+            <h2 class="title">Professional Skills</h2>
+            
+            <div class="professional-box">
+                <div class="radial-bar">
+                    <div class="circle creativity">
+                        <div class="inner-circle">90%</div>
+                    </div>
+                    <div class="radial-text">Creativity</div>
+                </div>
+
+                <div class="radial-bar">
+                    <div class="circle communication">
+                        <div class="inner-circle">65%</div>
+                    </div>
+                    <div class="radial-text">Communication</div>
+                </div>
+
+                <div class="radial-bar">
+                    <div class="circle problem">
+                        <div class="inner-circle">75%</div>
+                    </div>
+                    <div class="radial-text">Problem Solving</div>
+                </div>
+
+                <div class="radial-bar">
+                    <div class="circle teamwork">
+                        <div class="inner-circle">85%</div>
+                    </div>
+                    <div class="radial-text">Teamwork</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="service-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>UI/UX Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur recusandae dolorem culpa qui incidunt, velit illum repellat.</p>
+                <a href="#" class="btn-box">Learn more</a>
+            </div>
+            <div class="service-box">
+                <i class="fa-solid fa-crop-simple"></i>
+                <h3>Web Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur recusandae dolorem culpa qui incidunt, velit illum repellat.</p>
+                <a href="#" class="btn-box">Learn more</a>
+            </div>
+            <div class="service-box">
+                <i class="fa-brands fa-apple"></i>
+                <h3>App Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur recusandae dolorem culpa qui incidunt, velit illum repellat.</p>
+                <a href="#" class="btn-box">Learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="dbms.jpg" alt="Project 1">
+                <div class="portfolio-layer">
+                    <h4>Data Base </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="html.jpg" alt="Project 2">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="aii.jpg"alt="Project 3">
+                <div class="portfolio-layer">
+                    <h4>AI Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" required>
+                <input type="text" placeholder="Email Subject" required>
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2026 by Chandra Sekhar Panda | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
